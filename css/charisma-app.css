@@ -398,6 +398,7 @@ ul.ajax-loaders {
 .login-header {
     padding-top: 30px;
     height: 120px;
+
 }
 
 .pull-left {
@@ -430,6 +431,8 @@ ul.ajax-loaders {
 
 .login-box .input-prepend {
     margin-bottom: 10px;
+    background-color: #ffffff;
+    opacity:0.6;
 }
 
 .login-box .btn {
@@ -682,6 +685,7 @@ ul.github-buttons li {
 
     .ch-container {
         padding: 0 20px;
+        opacity:0.8;
     }
 }
 
