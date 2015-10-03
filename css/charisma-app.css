@@ -445,7 +445,7 @@ ul.ajax-loaders {
 }
 
 .main-menu > li > a {
-    border: 1px solid rgba(221, 221, 221, 0.46);
+    border: 1px solid rgba(54, 165, 165);
 }
 
 .main-menu > li {
@@ -455,16 +455,17 @@ ul.ajax-loaders {
 .sidebar-nav .nav-header {
     display: block;
     padding: 3px 15px;
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     line-height: 18px;
-    color: #999999;
+    color: #67C2EF;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
 }
 
 .navbar {
     border-radius: 0;
+    color: #67C2EF;
 }
 
 ul.main-menu li:hover {
@@ -539,6 +540,7 @@ ul.github-buttons li {
         text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
         width: 40%;
         font-size: 14px;
+
     }
 
     .nav-sm {
