@@ -126,39 +126,112 @@
             <!-- content starts -->
             
 
-<div>
-    <ul class="breadcrumb">
-        <li>
-            <a href="#">Home</a>
-        </li>
-        <li>
-            <a href="#">Blank</a>
-        </li>
-    </ul>
-</div>
 
-<div class="row">
-    <div class="box col-md-12">
-        <div class="box-inner">
-            <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-star-empty"></i> Blank</h2>
 
-                <div class="box-icon">
-                    <a href="#" class="btn btn-setting btn-round btn-default"><i
-                            class="glyphicon glyphicon-cog"></i></a>
-                    <a href="#" class="btn btn-minimize btn-round btn-default"><i
-                            class="glyphicon glyphicon-chevron-up"></i></a>
-                    <a href="#" class="btn btn-close btn-round btn-default"><i
-                            class="glyphicon glyphicon-remove"></i></a>
+
+
+    <div class="row">
+        <div class="box col-md-6">
+            <div class="box-inner">
+                <div class="box-header well" data-original-title="">
+                    <h2>Upcoming Events</h2>
+
+                    
+                </div>
+                <div class="box-content">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Date</th>
+                            <th>Password</th>
+                            <th>Status</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Homework Help Sessions </td>
+                            <td class="center">10/1/2015</td>
+                            <td class="center"> </td>
+                            <td class="center">
+                                <span class="label-success label label-default">Earned It</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Football Practice</td>
+                            <td class="center">10/2/2015</td>
+                            <td class="center"> </td>
+                            <td class="center">
+                                <span class="label-success label label-default">Earned It</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mentor Meetings</td>
+                            <td class="center">10/5/2015</td>
+                            <td class="center"> </td>
+                            <td class="center">
+                                <span class="label-default label label-danger">Earn it</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Game Day</td>
+                            <td class="center">10/7/2015</td>
+                            <td class="center"> </td>
+                            <td class="center">
+                                <span class="label-default label label-danger">Earn it</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ACT Prep Classes</td>
+                            <td class="center">10/8/2015</td>
+                            <td class="center"> </td>
+                            <td class="center">
+                                <span class="label-default label label-danger">Earn it</span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <ul class="pagination pagination-centered">
+                        <li><a href="#">Prev</a></li>
+                        <li class="active">
+                            <a href="#">1</a>
+                        </li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
+        <!--/span-->
+
+        <div class="box col-md-6">
+            <div class="box-inner">
+                <div class="box-header well" data-original-title="">
+                <h2><i class="glyphicon glyphicon-list-alt"></i> Promise Progress</h2>
+
+                
+            </div>
             <div class="box-content">
-                <!-- put your content here -->
+                <div id="donutchart" style="height: 300px;">
+
+                </div>
             </div>
         </div>
     </div>
-</div><!--/row-->
-
+</div>
+                </div>
+            </div>
+        </div>
+        <!-- chart libraries start -->
+<script src="bower_components/flot/excanvas.min.js"></script>
+<script src="bower_components/flot/jquery.flot.js"></script>
+<script src="bower_components/flot/jquery.flot.pie.js"></script>
+<script src="bower_components/flot/jquery.flot.stack.js"></script>
+<script src="bower_components/flot/jquery.flot.resize.js"></script>
+<!-- chart libraries end -->
+<script src="js/init-chart.js"></script>
 
     <!-- content ends -->
     </div><!--/#content.col-md-0-->
